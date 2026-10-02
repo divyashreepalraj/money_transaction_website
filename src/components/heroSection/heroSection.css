@@ -1,0 +1,154 @@
+.hero_badge {
+    background: var(--blue_bg);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: var(--blue_text);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.hero_badge span {
+    background: var(--green_text);
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.right_side, .left_side {
+    width: 48%;
+}
+
+.herotopic {
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: var(--primary_text);
+}
+
+.herotopic span {color: var(--blue_text);}
+
+.featureCard {
+    background: var(--white);
+    border: 1px solid var(--stroke);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.content .topic {
+    font-weight: 600;
+    margin: 0;
+    color: var(--primary_text);
+}
+
+.content .description {
+    margin: 0;
+}
+
+.rating_row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 0 0;
+}
+
+.stars_badge {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid var(--green_border);
+    background: var(--green_bg);
+    gap: 10px;
+    border-radius: 8px;
+}
+
+
+.rating {
+    color: var(--primary_text);
+    font-weight: 600;
+}
+
+span.sep_span {
+    background: var(--secondary_text);
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.hero_features {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.calculator_parent {
+    background: var(--white);
+    border: 1px solid var(--stroke);
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Calc_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.calc_content p:first-child {
+    color: var(--blue_text);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.calc_badge {
+    background: var(--green_bg);
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--green_border);
+    color: var(--green_text);
+    font-weight: 500;
+}
+
+.amount_sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sender_amount {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sender_bg {
+    background: var(--section_bg);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--stroke);
+}
+
+
+.role {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}

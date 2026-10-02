@@ -1,0 +1,22 @@
+.navbar {
+    background: white;
+}
+
+.navLink_parent {
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    gap: 1.5%;
+}
+
+.btn_group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: auto;
+}
+
+.btn_group button {
+    white-space: nowrap;
+}

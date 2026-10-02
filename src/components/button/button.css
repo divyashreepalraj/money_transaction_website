@@ -1,0 +1,15 @@
+.blue_btn {
+    background-color: var(--primary_color) !important;
+    color: var(--white);
+}
+
+.button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--primary_color);
+}
+
+.stroke_btn {
+    background-color: var(--white);
+    color: var(--primary_text);
+}
