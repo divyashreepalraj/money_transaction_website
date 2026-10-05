@@ -10,7 +10,7 @@ const CompButton = ({
       {text}
       {icon && (
         <span className="btn_img">
-          {icon}
+          <img src={icon} alt="" />
         </span>
       )}
     </button>

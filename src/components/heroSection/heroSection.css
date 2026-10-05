@@ -1,4 +1,4 @@
-.hero_badge {
+.hero_badge, .calc_badge {
     background: var(--blue_bg);
     width: fit-content;
     padding: 5px 20px;
@@ -11,7 +11,7 @@
     font-weight: 500;
 }
 
-.hero_badge span {
+.hero_badge span, .calc_badge span {
     background: var(--green_text);
     width: 10px;
     height: 10px;
@@ -104,13 +104,13 @@ span.sep_span {
     justify-content: center;
     display: flex;
     flex-direction: column;
+    gap: 25px;
 }
 
 .Calc_head {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .calc_content p:first-child {
@@ -151,4 +151,10 @@ span.sep_span {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 6px;
+}
+
+.calc_body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
